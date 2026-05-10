@@ -222,7 +222,7 @@ Centralizes hashing logic in the model — impossible to accidentally skip it re
 
 | Dashboard | Chat Interface |
 |---|---|
-| ![Dashboard](#) | ![Chat](#) |
+| ![Dashboard](./assets/dashboard.png) | ![Chat](./assets/chat.png)
 
 ---
 
