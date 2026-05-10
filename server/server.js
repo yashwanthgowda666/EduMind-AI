@@ -53,8 +53,13 @@ app.use(helmet());
 
 // 14. Enable CORS for specified origins, permit credentials (cookies/headers).
 //     Without this config, frontend from different ports can't authenticate or use protected APIs.
+
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:3000',
+    'https://edu-mind-ai-beta.vercel.app'
+  ],
   credentials: true,
 }));
 
